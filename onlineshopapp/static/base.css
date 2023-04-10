@@ -1,0 +1,50 @@
+body {
+  background: rgb(248, 240, 214); 
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  left: 0px;
+  top: 0px;
+  background: #414141;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.about img, .feedback img, .catalog img{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.about , .feedback , .catalog, .logo{
+  font-size: 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  
+
+}
+
+.logo img{
+  width: 110px;
+  height: 83px;
+}
+
+

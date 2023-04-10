@@ -1,0 +1,18 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'base.css' %}" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <a class="logo" href="{% url 'main' %}"><img src="{% static 'img/logo.png' %}" alt=""> OnlineShop</a>
+      <a class="catalog" href="{% url 'catalogue' %}"><img src="{% static 'img/catalogue.png' %}" alt=""> Каталог</a>
+      <a class="about" href="{% url 'about_us' %}"><img src="{% static 'img/about_us.png' %}" alt=""> Про нас</a>
+      <a class="feedback" href="{% url 'feedback' %}"><img src="{% static 'img/feedback.png' %}" alt=""> Зворотній зв'язок</a>
+    </div>
+  </body>
+</html>
